@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^bans545\.txt$ index.php [L]
+RewriteRule ^highscore29184\.txt$ index.php [L]

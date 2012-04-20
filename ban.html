@@ -1,0 +1,27 @@
+<?php
+// Open de sessie
+ini_set('session.use_cookies', false);
+session_id($_GET['i']);
+session_start();
+$_SESSION['p1name'] = $_GET['n1'];
+$_SESSION['p2name'] = $_GET['n2'];
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>GMChat-MasterMind</title>
+	<style type="text/css">
+		body
+		{
+			background-color: #DDFFDD;
+			font-size: small;
+			margin: 0px 0px 0px 0px;
+			padding: 5px; overflow: hidden;
+		}		
+	</style>
+</head>
+<body scroll="no">
+<b>U bent verbannen van dit spel door misbruik te maken van een van de functies.</b><br/>Natuurlijk willen wij je unbannen. Neem contact op in de chat met ick-in-noot of AvA en beloof plechtig dat je onze beveileging nooit meer probeert te omzuilen!<br/><br/><i>Note: Dit doen we alleen om het spel leuk te houden</i>
+</body>
+</html>
